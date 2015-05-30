@@ -1,0 +1,37 @@
+<!doctype html>
+<html manifest = "manifest.cache">
+<head>
+  <meta charset="utf-8">
+  <title>Offline</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  
+  <div class="container clearfix">
+    <div class="status green">Status: <span id="onlineStatus">Online/Offline</span></div>
+
+    <form class="form">
+      <input placeholder="Title" type="text" name="title"/><br>
+      <textarea placeholder="Description" rows="5" name="description"></textarea> <br>
+      <button type="submit" id="save">Save</button>
+    </form>
+
+    <div class="app-update">
+      <span>Application update status:</span>
+      <ul id="updateStatus"></ul>
+    </div>
+
+    <div class="request-status">
+      <span>Request status:</span>
+      <ul id="log"></ul>
+    </div>
+  </div>
+
+	<script src="js/offline.js"></script> 
+  <script src="js/app.js"></script>
+  <script src="js/db.js"></script> 
+
+</body>  
+</html>

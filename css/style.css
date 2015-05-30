@@ -1,0 +1,78 @@
+.container {
+	width: 1000px;
+	background-color: aquamarine;
+	border: 3px solid blue;
+	border-radius: 6px;
+	margin: 10px auto;
+	padding: 30px;
+}
+
+.status {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 3em;
+	margin: 0 -30px;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.app-update,
+.request-status {
+	width: 45%;
+	background-color: lightGray;
+	border-radius: 4px;
+	padding: 20px;
+	float: left;
+	margin-top: 50px;
+	box-sizing: border-box;
+}
+.request-status {
+	float: right;
+}
+
+.app-update > span,
+.request-status > span {
+	font-weight: bold;
+	font-size: 18px;
+	line-height:  2em;
+}
+
+.form {
+	margin-top: 40px;
+}
+.form input,
+.form textarea {
+	padding: 5px;
+	border-radius: 4px;
+	width: 45%;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.form button {
+	padding: 5px;
+	border-radius: 4px;
+	width: 100px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

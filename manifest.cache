@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# version 15
+
+CACHE:
+index.html
+css/style.css
+js/db.js
+js/offline.js
+js/app.js
+
+NETWORK:
+*
+
+FALLBACK:
+*
